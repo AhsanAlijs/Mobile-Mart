@@ -1,0 +1,191 @@
+@media (min-width: 200px) {
+    .nav-mid {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .main-head {
+        font-size: medium;
+    }
+
+    .input-main {
+        width: 100%;
+        padding: 5px;
+    }
+    .banner {
+        width: 100%;
+    }
+}
+
+@media (min-width: 280px) {
+    .nav-mid {
+        width: 100%;
+    }
+
+    .main-head {
+        font-size: 16px;
+    }
+
+    .input-main {
+        width: 5rem;
+        padding: 5px;
+
+    }
+
+    .right {
+        padding: 5px;
+        width: fit-content;
+    }
+
+    .white {
+        font-size: 10px;
+    }
+
+    .blue {
+        font-size: 10px;
+    }
+
+    .button {
+        display: block;
+    }
+    .banner {
+        width: 100%;
+    }
+
+
+}
+
+@media (min-width: 400px) {
+    .nav-mid {
+        width: 100%;
+    }
+
+    .main-head {
+        font-size: medium;
+    }
+
+    .input-main {
+        width: auto;
+        padding: 10px;
+
+    }
+
+    .right {
+        width: auto;
+    }
+    .banner {
+        width: 100%;
+    }
+
+
+}
+
+@media (min-width: 640px) {
+    .nav-mid {
+        width: 100%;
+    }
+
+    .main-head {
+        font-size: medium;
+    }
+
+    .input-main {
+        width: auto;
+        padding: 10px;
+
+    }
+
+    .right {
+        width: auto;
+    }
+    .banner {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .main-head {
+        font-size: large;
+    }
+
+    .input-main {
+        width: 25rem;
+        padding: 10px;
+
+    }
+
+    .white {
+        font-size: 15px;
+    }
+
+    .blue {
+        font-size: 15px;
+    }
+
+    .right {
+        padding: 5px 10px 5px 10px;
+    }
+    .banner {
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    .main-head {
+        font-size: xx-large;
+    }
+
+    .input-main {
+        width: 30rem;
+        padding: 10px;
+
+    }
+
+    .white {
+        font-size: 16px;
+    }
+
+    .blue {
+        font-size: 16px;
+    }
+
+    .right {
+        padding: 10px;
+    }
+    .banner {
+        width: 100%;
+    }
+
+
+}
+
+@media (min-width: 1230px) {
+    .main-head {
+        font-size: xx-large;
+    }
+
+    .input-main {
+        width: 35rem;
+        padding: 10px;
+    }
+
+    .white {
+        font-size: 15px;
+    }
+
+    .blue {
+        font-size: 15px;
+    }
+
+    .right {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+}
