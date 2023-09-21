@@ -1,4 +1,5 @@
-const getMob = document.getElementById("father")
+const getMob = document.getElementById("father");
+
 
 const phones = [
     {
@@ -85,6 +86,23 @@ const phones = [
 
 ]
 
+const footer = [
+   {
+    img:'https://static.priceoye.pk/images/percentage.svg',
+    text1:'100% Original Products',
+   },
+   {
+    img:'https://static.priceoye.pk/images/percentage.svg',
+    text1:'Fast delivery',
+   },
+   {
+    img:'https://static.priceoye.pk/images/percentage.svg',
+    text1:'Fast delivery',
+   }
+]
+
+
+
 //  console.log(phones[1].brand);
 
 for(let i = 0; i<phones.length;i++){
@@ -95,6 +113,35 @@ for(let i = 0; i<phones.length;i++){
     <h4>Rom:${phones[i].rom}Gb</h4>
     <h4>Camra:${phones[i].camera}</h4>
     <h4>Price: ${phones[i].price}</h4>
-    <button class="cart">Add To Cart</button>
+    <button onclick="addtoCart(${i})" class="cart">Add To Cart</button>
     </div>`
 }
+const cartArry = []; 
+function addtoCart(index){
+    // console.log(phones[index]);
+    if(cartArry.includes(phones[index])){
+
+        for (let i = 0; i < cartArry.length; i++) {
+            if (cartArry[i]===phones[index]) {
+                cartArry[i].Quantity+=1
+            }
+        }
+
+    }else{
+        phones[index].Quantity=1
+        cartArry.push(phones[index])
+    }
+    console.log(cartArry);
+}
+function gotoCart(){
+    window.location="./cart.html";
+
+}
+
+let string = JSON.stringify(cartArry)
+localStorage.setItem("cartArry", string)
+
+
+
+
+

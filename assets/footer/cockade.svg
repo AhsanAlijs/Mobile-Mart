@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cockade</title>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cart-summary-—-dektop" transform="translate(-709.000000, -1066.000000)" fill="#545AED">
+            <g id="Group-20" transform="translate(0.000000, 1045.000000)">
+                <g id="Group-8" transform="translate(670.000000, 21.000000)">
+                    <g id="cockade" transform="translate(39.000000, 0.000000)">
+                        <path d="M3.95,13.908 C5.575,16.115 8.074,17.639 10.94,17.942 L10.94,17.942 L8,24 L5.559,20.142 L0.125,21.5 Z M20.05,13.908 L23.875,21.5 L18.441,20.142 L16,24 L13.06,17.942 C15.926,17.639 18.425,16.115 20.05,13.908 Z M12,0 C16.411,0 20,3.589 20,8 C20,12.411 16.411,16 12,16 C7.589,16 4,12.411 4,8 C4,3.589 7.589,0 12,0 Z M12,6 C10.895,6 10,6.895 10,8 C10,9.105 10.895,10 12,10 C13.105,10 14,9.105 14,8 C14,6.895 13.105,6 12,6 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -15,6 +15,15 @@
     .banner {
         width: 100%;
     }
+    .img-1{
+        width: 30px;
+    }
+    .main-mob{
+        width: 100%;
+    }
+    .image{
+        width:250px;
+    }
 }
 
 @media (min-width: 280px) {
@@ -27,7 +36,7 @@
     }
 
     .input-main {
-        width: 5rem;
+        width: 4rem;
         padding: 5px;
 
     }
@@ -51,8 +60,17 @@
     .banner {
         width: 100%;
     }
+    .img-1{
+        width: 30px;
+        gap: 5px;
+    }
 
-
+    .main-mob{
+        width: 100%;
+    }
+    .image{
+        width:100%;
+    }
 }
 
 @media (min-width: 400px) {
@@ -77,6 +95,15 @@
         width: 100%;
     }
 
+    .img-1{
+        width: 40px;
+    }
+    .main-mob{
+        width: auto;
+    }
+    .image{
+        width:260px;
+    }
 
 }
 
@@ -101,7 +128,15 @@
     .banner {
         width: 100%;
     }
-
+    .img-1{
+        width: 40px;
+    }
+    .main-mob{
+        width: auto;
+    }
+    .image{
+        width:265px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -129,7 +164,15 @@
     .banner {
         width: 100%;
     }
-
+    .img-1{
+        width:50px;
+    }
+    .main-mob{
+        width: auto;
+    }
+    .image{
+        width:270px;
+    }
 }
 
 
@@ -158,13 +201,24 @@
     .banner {
         width: 100%;
     }
-
-
+    .img-1{
+        width: 50px;
+    }
+    .main-mob{
+        width: auto;
+    }
+    .image{
+        width:275px;
+    }
 }
 
 @media (min-width: 1230px) {
     .main-head {
         font-size: xx-large;
+    }
+
+    .main-mob{
+        width: auto;
     }
 
     .input-main {
@@ -187,5 +241,10 @@
     .banner {
         width: 100%;
     }
-
+    .img-1{
+        width: 50px;
+    }
+    .image{
+        width:280px;
+    }
 }
