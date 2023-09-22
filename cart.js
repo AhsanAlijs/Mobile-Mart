@@ -58,6 +58,9 @@ function add(index) {
 }
 function sub(index) {
     retArray[index].Quantity -= 1
+    if(retArray[index].Quantity===0){
+        retArray.splice(index,1)
+    }
     render()
 }
 
@@ -67,6 +70,8 @@ function sub(index) {
 function delte(index) {
 
     retArray.splice(index, 1);
+
+    
     render()
 }
 
