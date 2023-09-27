@@ -65,7 +65,7 @@ body {
 }
 
 .image {
-    width: 280px;
+    width: 250px;
     padding: 5px;
 }
 
@@ -80,7 +80,7 @@ body {
 
 .main-mob {
     border: 2px solid #ffffff;
-    background-color:#ffffff ;
+    background-color: #ffffff;
     padding: 10px;
     color: black;
     border-radius: 5px;
@@ -96,11 +96,14 @@ h4 {
 }
 
 .cart {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 5px 10px 5px;
     border-radius: 10px;
     background-color: #48afff;
     color: white;
-    font-size: larger;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+
 }
 
 .logo-nav {
@@ -127,32 +130,46 @@ h4 {
     -webkit-filter: grayscale(0);
     -webkit-transform: scale();
 }
-.fnav{
+
+.fnav {
     display: flex;
     /* align-items: center; */
     justify-content: space-evenly;
 }
 
-.cart-meen{
-margin-bottom: 10px;
+.cart-meen {
+    margin-bottom: 10px;
     text-align: center;
 }
-.cart-btn{
+
+.cart-btn {
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
+    border: 1px solid white;
     background-color: #48afff;
     color: #ffffff;
 }
-.less{
-    padding: 10px 20px 10px 20px;
+
+.less {
+    padding: 10px 5px 10px 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
-.total{
+
+.total {
     color: black;
 }
-.last{
-   text-align: center;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   border: 1px solid rgb(0, 0, 0);
-   padding: 5px;
+
+.last {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.cart-menue {
+    text-align: center;
+    padding: 5px;
 }

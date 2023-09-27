@@ -1,6 +1,10 @@
 const cartAdditem = document.getElementById('father');
 const totalCartPrice = document.getElementById('totalBill');
+const head = document.querySelector('.carth')
 
+if (head.innerHTML === cartAdditem){
+    
+}
 
 
 let retString = localStorage.getItem("cartArry")
@@ -26,7 +30,6 @@ let retArray = JSON.parse(retString)
 
 // }
 render()
-
 function render() {
     cartAdditem.innerHTML = ""
     let full = 0 ;
@@ -34,12 +37,11 @@ function render() {
         totalCartPrice.innerHTML=''
         retArray[i].TotalPrice = + `${retArray[i].price * retArray[i].Quantity}`
         // console.log(retArray[i]);
-        cartAdditem.innerHTML += `<div class="main-mob"><h3>${retArray[i].brand}</h3>
-        <img src="${retArray[i].img}" class="image">
+        cartAdditem.innerHTML += `<div class="main-mob width"><h3>${retArray[i].brand}</h3>
+       
         <h4>Model:${retArray[i].model}</h4>
-        <h4>Ram:${retArray[i].ram} Gb</h4>
-        <h4>Rom:${retArray[i].rom}Gb</h4>
-        <h4>Camra:${retArray[i].camera}</h4>
+       
+        
         <h4>Price: ${retArray[i].price}</h4>
         <h4>Quantity: ${retArray[i].Quantity}</h4>
         <h4>TotlePrice: ${retArray[i].TotalPrice}</h4>
