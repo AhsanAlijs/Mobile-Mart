@@ -12,17 +12,21 @@
         width: 100%;
         padding: 5px;
     }
+
     .banner {
         width: 100%;
     }
-    .img-1{
+
+    .img-1 {
         width: 30px;
     }
-    .main-mob{
+
+    .main-mob {
         width: 100%;
     }
-    .image{
-        width:250px;
+
+    .image {
+        width: 250px;
     }
 }
 
@@ -57,19 +61,22 @@
     .button {
         display: block;
     }
+
     .banner {
         width: 100%;
     }
-    .img-1{
+
+    .img-1 {
         width: 30px;
         gap: 5px;
     }
 
-    .main-mob{
+    .main-mob {
         width: 100%;
     }
-    .image{
-        width:100%;
+
+    .image {
+        width: 100%;
     }
 }
 
@@ -91,18 +98,21 @@
     .right {
         width: auto;
     }
+
     .banner {
         width: 100%;
     }
 
-    .img-1{
+    .img-1 {
         width: 40px;
     }
-    .main-mob{
+
+    .main-mob {
         width: auto;
     }
-    .image{
-        width:260px;
+
+    .image {
+        width: 260px;
     }
 
 }
@@ -125,17 +135,21 @@
     .right {
         width: auto;
     }
+
     .banner {
         width: 100%;
     }
-    .img-1{
+
+    .img-1 {
         width: 40px;
     }
-    .main-mob{
+
+    .main-mob {
         width: auto;
     }
-    .image{
-        width:265px;
+
+    .image {
+        width: 265px;
     }
 }
 
@@ -161,17 +175,21 @@
     .right {
         padding: 5px 10px 5px 10px;
     }
+
     .banner {
         width: 100%;
     }
-    .img-1{
-        width:50px;
+
+    .img-1 {
+        width: 50px;
     }
-    .main-mob{
+
+    .main-mob {
         width: auto;
     }
-    .image{
-        width:270px;
+
+    .image {
+        width: 270px;
     }
 }
 
@@ -198,17 +216,21 @@
     .right {
         padding: 10px;
     }
+
     .banner {
         width: 100%;
     }
-    .img-1{
+
+    .img-1 {
         width: 50px;
     }
-    .main-mob{
+
+    .main-mob {
         width: auto;
     }
-    .image{
-        width:275px;
+
+    .image {
+        width: 275px;
     }
 }
 
@@ -217,7 +239,7 @@
         font-size: xx-large;
     }
 
-    .main-mob{
+    .main-mob {
         width: auto;
     }
 
@@ -241,10 +263,12 @@
     .banner {
         width: 100%;
     }
-    .img-1{
+
+    .img-1 {
         width: 50px;
     }
-    .image{
-        width:280px;
+
+    .image {
+        width: 280px;
     }
 }

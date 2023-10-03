@@ -116,7 +116,10 @@ for (let i = 0; i < phones.length; i++) {
     <button onclick="addtoCart(${i})" class="cart">Add To Cart</button>
     </div>`
 }
-const cartArry = [];
+const cartData = localStorage.getItem('cartArry');
+const jsonData = JSON.parse(cartData);
+console.log(jsonData);
+const cartArry = [...jsonData];
 
 function addtoCart(index) {
     // console.log(phones[index]);
@@ -130,7 +133,7 @@ function addtoCart(index) {
 
     } else {
         Swal.fire({
-            position: 'top-end',
+            position: 'top',
             icon: 'success',
             title: 'Item Added To Cart',
             showConfirmButton: false,
@@ -151,6 +154,7 @@ function gotoCart() {
     localStorage.setItem('cartArry', cartItems)
     window.location = "./cart.html";
 }
+
 
 
 

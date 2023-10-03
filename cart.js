@@ -2,9 +2,12 @@ const cartAdditem = document.getElementById('father');
 const totalCartPrice = document.getElementById('totalBill');
 const head = document.querySelector('.carth')
 
-if (head.innerHTML === cartAdditem){
-    
+function gotohome() {
+    window.location = "./index.html";
+    localStorage.setItem('cartArry', JSON.stringify(retArray));
 }
+
+
 
 
 let retString = localStorage.getItem("cartArry")
@@ -32,16 +35,15 @@ let retArray = JSON.parse(retString)
 render()
 function render() {
     cartAdditem.innerHTML = ""
-    let full = 0 ;
-    for (let i = 0; i < retArray.length; i++) {
-        totalCartPrice.innerHTML=''
-        retArray[i].TotalPrice = + `${retArray[i].price * retArray[i].Quantity}`
-        // console.log(retArray[i]);
-        cartAdditem.innerHTML += `<div class="main-mob width"><h3>${retArray[i].brand}</h3>
-       
+    let full = 0;
+    totalCartPrice.innerHTML = ''
+    if (retArray.length > 0) {
+        for (let i = 0; i < retArray.length; i++) {
+            totalCartPrice.innerHTML = ''
+            retArray[i].TotalPrice = + `${retArray[i].price * retArray[i].Quantity}`
+            // console.log(retArray[i]);
+            cartAdditem.innerHTML += `<div class="main-mob width"><h3>${retArray[i].brand}</h3>
         <h4>Model:${retArray[i].model}</h4>
-       
-        
         <h4>Price: ${retArray[i].price}</h4>
         <h4>Quantity: ${retArray[i].Quantity}</h4>
         <h4>TotlePrice: ${retArray[i].TotalPrice}</h4>
@@ -50,19 +52,22 @@ function render() {
         <span>${retArray[i].Quantity}</span>
         <button onclick="sub(${i})" class="less">-</button>
         </div>`
-        
 
-const totalItems =  retArray[i].TotalPrice
-full += totalItems
-        // totalCartPrice.innerHTML+=`${retArray[i].TotalPrice}`
+
+            const totalItems = retArray[i].TotalPrice
+            full += totalItems
+            // totalCartPrice.innerHTML+=`${retArray[i].TotalPrice}`
+        }
+
+        if (full === 0) {
+            totalCartPrice.innerHTML = `<p class="last">All Over Cart Price: ${full} PKR</p>`
+        } else {
+            totalCartPrice.innerHTML += `<p class="last">All Over Cart Price: ${full} PKR</p>`
+        }
+    } else {
+        cartAdditem.innerHTML = "Item is not found in cart"
     }
-    
-    if(full===0){
-        totalCartPrice.innerHTML=`<p class="last">All Over Cart Price: ${full} PKR</p>`
-        }else{
-        totalCartPrice.innerHTML+=`<p class="last">All Over Cart Price: ${full} PKR</p>`
-    }
-    
+
 }
 function add(index) {
     retArray[index].Quantity += 1
@@ -84,20 +89,9 @@ function delte(index) {
     render()
 }
 
-function gotohome() {
-    window.location = "./index.html";
 
-}
 
-// function total() {
-//     totalCartPrice.innerHTML = ""
-//     let cartTOtal = 0;
-//     for(i = 0; i < retArray.length; i++){
-//        console.log(retArray[i].TotalPrice);
-//         //console.log(itemtotal);
-        
-//     }
-//     // totalCartPrice.innerHTML= `<p>total price: ${cartTOtal}</p>`
-// }
-//     total()
 
+window.onbeforeunload = function () {
+    localStorage.setItem('cartArry', JSON.stringify(retArray));
+};
