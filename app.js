@@ -116,16 +116,27 @@ for (let i = 0; i < phones.length; i++) {
     <button onclick="addtoCart(${i})" class="cart">Add To Cart</button>
     </div>`
 }
+// const cartData = localStorage.getItem('cartArry');
+// const jsonData = JSON.parse(cartData);
+// // console.log(jsonData);
+// // const cartArry = [...jsonData];
+// let cartArr;
+// if(Array.isArray(jsonData)){
+//     cartArry = [...jsonData]
+
+// }else{
+//     cartArr = []
+// }
+
 const cartData = localStorage.getItem('cartArry');
 const jsonData = JSON.parse(cartData);
-// console.log(jsonData);
-// const cartArry = [...jsonData];
-let cartArr;
+
+let cartArry;
 if(Array.isArray(jsonData)){
     cartArry = [...jsonData]
 
 }else{
-    cartArr = []
+    cartArry = []
 }
 
 function addtoCart(index) {
