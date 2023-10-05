@@ -118,8 +118,15 @@ for (let i = 0; i < phones.length; i++) {
 }
 const cartData = localStorage.getItem('cartArry');
 const jsonData = JSON.parse(cartData);
-console.log(jsonData);
-const cartArry = [...jsonData];
+// console.log(jsonData);
+// const cartArry = [...jsonData];
+let cartArr;
+if(Array.isArray(jsonData)){
+    cartArry = [...jsonData]
+
+}else{
+    cartArr = []
+}
 
 function addtoCart(index) {
     // console.log(phones[index]);
