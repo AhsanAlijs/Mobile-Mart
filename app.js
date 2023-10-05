@@ -120,12 +120,12 @@ const cartData = localStorage.getItem('cartArry');
 const jsonData = JSON.parse(cartData);
 // console.log(jsonData);
 // const cartArry = [...jsonData];
-let cartArry;
+let cartArr;
 if(Array.isArray(jsonData)){
     cartArry = [...jsonData]
 
 }else{
-    cartArry = []
+    cartArr = []
 }
 
 function addtoCart(index) {
