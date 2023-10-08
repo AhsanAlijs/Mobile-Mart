@@ -176,3 +176,91 @@ h4 {
     text-align: center;
     padding: 5px;
 }
+
+/* login form */
+.container {
+    /* background-image: url('https://wallpapers.com/images/hd/simple-background-yixvlrrhdncvb736.jpg'); */
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #ffffff;
+    padding-top: 150px;
+}
+
+#login-form {
+    text-align: center;
+    padding-top:30px;
+    /* background-color: #000000; */
+
+}
+
+.username {
+    display: block;
+    line-height: 5;
+}
+
+.btn {
+    display: block;
+    line-height: 5;
+    text-align: center;
+}
+
+#email {
+    width: 15rem;
+    padding: 5px;
+    border-radius: 5px;
+    /* border: none; */
+    font-size:larger;
+    color:#000000;
+
+}
+
+#password {
+    width: 15rem;
+    padding: 5px;
+    border-radius: 5px;
+    /* border: none; */
+    font-size:larger;
+    color:#000000;
+
+}
+
+.log-image {
+    width: 150px;
+
+}
+
+.main-field {
+    width: 40%;
+    height: 45%;
+    margin-left: 400px;
+    background-color: #ffffff;
+    color:#000000;
+    border: 2px solid black;
+   
+}
+
+.l-h {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.submit {
+    color: rgb(0, 0, 0);
+    padding: 5px 10px 5px 10px;
+    background: rgb(255, 255, 255);
+    /* border: none; */
+    border-radius: 10PX;
+    font-size: larger;
+    font-weight: bold;
+}
+.icon{
+    word-spacing: 10px;
+}
+
+
+label{
+    font-size: larger;
+    font-weight: bold;
+}

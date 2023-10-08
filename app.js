@@ -132,10 +132,10 @@ const cartData = localStorage.getItem('cartArry');
 const jsonData = JSON.parse(cartData);
 
 let cartArry;
-if(Array.isArray(jsonData)){
+if (Array.isArray(jsonData)) {
     cartArry = [...jsonData]
 
-}else{
+} else {
     cartArry = []
 }
 
@@ -171,10 +171,13 @@ function gotoCart() {
     const cartItems = JSON.stringify(cartArry);
     localStorage.setItem('cartArry', cartItems)
     window.location = "./cart.html";
-}
+};
 
+// const login = document.querySelector('#login');
 
-
+// login.addEventListener('click', () => {
+//     window.location = './loginn.html'
+// });
 
 
 
