@@ -343,3 +343,6 @@ label {
     color: #5aafff;
     text-decoration: none;
 }
+.alert{
+    color: red;
+}
