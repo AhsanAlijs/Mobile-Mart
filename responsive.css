@@ -9,7 +9,6 @@
     }
 
     .input-main {
-        width: 100%;
         padding: 5px;
     }
 
@@ -32,16 +31,16 @@
 
 @media (min-width: 280px) {
     .nav-mid {
-        width: 100%;
+        width: auto;
     }
 
     .main-head {
-        font-size: 16px;
+        font-size:small;
     }
 
     .input-main {
-        width: 4rem;
-        padding: 5px;
+        display: none;
+        /* padding: 5px; */
 
     }
 
@@ -78,8 +77,9 @@
     .image {
         width: 100%;
     }
+
     .main-field {
-        width:100%;
+        width: 100%;
         height: auto;
         margin-left: 0PX;
         margin-right: 10PX;
@@ -91,32 +91,6 @@
         padding: 5px;
 
     }
-    #login-form {
-        padding-top: 20px;
-        padding-bottom: 10px;
-        font-size: small;
-        font-weight: lighter;
-    }
-    #email{
-        width: auto;
-        font-size: small;
-
-    }
-    #password{
-        width: auto;
-        font-size: small;
-    }
-    .submit{
-        font-size: smaller;
-    }
-    .l-h{
-        font-size: large;
-        font-weight: bold;
-    }
-    .im{
-        font-size: small;
-    }
-
 }
 
 @media (min-width: 400px) {
@@ -125,17 +99,14 @@
     }
 
     .main-head {
-        font-size: medium;
+        font-size: small;
     }
 
     .input-main {
+        display: block;
         width: auto;
-        padding: 10px;
+        padding: 5px;
 
-    }
-
-    .right {
-        width: auto;
     }
 
     .banner {
@@ -153,6 +124,7 @@
     .image {
         width: 260px;
     }
+
     .main-field {
         width: auto;
         height: auto;
@@ -165,32 +137,6 @@
         font-weight: lighter;
 
     }
-    #login-form {
-        padding-top: 20px;
-        padding-bottom: 10px;
-        font-size: small;
-        font-weight: lighter;
-    }
-    #email{
-        width: auto;
-        font-size: small;
-
-    }
-    #password{
-        width: auto;
-        font-size: small;
-    }
-    .submit{
-        font-size: smaller;
-    }
-    .l-h{
-        font-size: large;
-        font-weight: bold;
-    }
-    .im{
-        font-size: small;
-    }
-
 }
 
 @media (min-width: 640px) {
@@ -199,11 +145,11 @@
     }
 
     .main-head {
-        font-size: medium;
+        font-size: large;
     }
 
     .input-main {
-        width: auto;
+
         padding: 10px;
 
     }
@@ -227,6 +173,7 @@
     .image {
         width: 265px;
     }
+
     .main-field {
         height: auto;
         margin-left: 250PX;
@@ -237,31 +184,7 @@
         font-weight: lighter;
 
     }
-    #login-form {
-        padding-top: 5px;
-        padding-bottom: 10px;
-        font-size: small;
-        font-weight: lighter;
-    }
-    #email{
-        width: auto;
-        font-size: small;
 
-    }
-    #password{
-        width: auto;
-        font-size: small;
-    }
-    .submit{
-        font-size: smaller;
-    }
-    .l-h{
-        font-size: large;
-        font-weight: bold;
-    }
-    .im{
-        font-size: small;
-    }
 }
 
 @media (min-width: 768px) {
@@ -303,39 +226,7 @@
         width: 270px;
     }
 
-    #login-form {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: larger;
-        font-weight: bolder;
-    }
 
-    .main-field {
-        width: auto;
-        height: auto;
-        margin-right:50px;
-        margin-left:50px;
-        background-color: #ffffff;
-        color: #000000;
-        border: 2px solid black;
-
-    }
-    #email{
-        width: auto;
-        font-size: large;
-
-    }
-    #password{
-        width: auto;
-        font-size: large;
-    }
-    .submit{
-        font-size: larger;
-    }
-    .im{
-        font-size: larger;
-        font-weight: bolder;
-    }
 }
 
 
@@ -378,94 +269,6 @@
     .image {
         width: 275px;
     }
-
-    .container {
-        /* background-image: url('https://wallpapers.com/images/hd/simple-background-yixvlrrhdncvb736.jpg'); */
-        background-color: #ffffff;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        color: #ffffff;
-        padding-top: 150px;
-    }
-
-    #login-form {
-        text-align: center;
-        padding-top: 30px;
-        /* background-color: #000000; */
-
-    }
-
-    .username {
-        display: block;
-        line-height: 5;
-    }
-
-    .btn {
-        display: block;
-        line-height: 5;
-        text-align: center;
-    }
-
-    #email {
-        width: 15rem;
-        padding: 5px;
-        border-radius: 5px;
-        /* border: none; */
-        font-size: larger;
-        color: #000000;
-
-    }
-
-    #password {
-        width: 15rem;
-        padding: 5px;
-        border-radius: 5px;
-        /* border: none; */
-        font-size: larger;
-        color: #000000;
-
-    }
-
-    .log-image {
-        width: 150px;
-
-    }
-
-    .main-field {
-        width: auto;
-        height: auto;
-        margin-left: 50px;
-        background-color: #ffffff;
-        color: #000000;
-        border: 2px solid black;
-
-    }
-
-    .l-h {
-        font-size: xx-large;
-        font-weight: bolder;
-    }
-
-    .submit {
-        color: rgb(0, 0, 0);
-        padding: 5px 10px 5px 10px;
-        background: rgb(255, 255, 255);
-        /* border: none; */
-        border-radius: 10PX;
-        font-size: larger;
-        font-weight: bold;
-    }
-
-    .icon {
-        word-spacing: 10px;
-    }
-
-
-    label {
-        font-size: larger;
-        font-weight: bold;
-    }
 }
 
 @media (min-width: 1230px) {
@@ -504,93 +307,5 @@
 
     .image {
         width: 280px;
-    }
-
-    .container {
-        /* background-image: url('https://wallpapers.com/images/hd/simple-background-yixvlrrhdncvb736.jpg'); */
-        background-color: #ffffff;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        color: #ffffff;
-        padding-top: 150px;
-    }
-
-    #login-form {
-        text-align: center;
-        padding-top: 30px;
-        /* background-color: #000000; */
-
-    }
-
-    .username {
-        display: block;
-        line-height: 5;
-    }
-
-    .btn {
-        display: block;
-        line-height: 5;
-        text-align: center;
-    }
-
-    #email {
-        width: 15rem;
-        padding: 5px;
-        border-radius: 5px;
-        /* border: none; */
-        font-size: larger;
-        color: #000000;
-
-    }
-
-    #password {
-        width: 15rem;
-        padding: 5px;
-        border-radius: 5px;
-        /* border: none; */
-        font-size: larger;
-        color: #000000;
-
-    }
-
-    .log-image {
-        width: 150px;
-
-    }
-
-    .main-field {
-        width: 40%;
-        height: auto;
-        margin-left: 400px;
-        background-color: #ffffff;
-        color: #000000;
-        border: 2px solid black;
-
-    }
-
-    .l-h {
-        font-size: xx-large;
-        font-weight: bolder;
-    }
-
-    .submit {
-        color: rgb(0, 0, 0);
-        padding: 5px 10px 5px 10px;
-        background: rgb(255, 255, 255);
-        /* border: none; */
-        border-radius: 10PX;
-        font-size: larger;
-        font-weight: bold;
-    }
-
-    .icon {
-        word-spacing: 10px;
-    }
-
-
-    label {
-        font-size: larger;
-        font-weight: bold;
     }
 }

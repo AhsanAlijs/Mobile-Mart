@@ -173,11 +173,7 @@ function gotoCart() {
     window.location = "./cart.html";
 };
 
-// const login = document.querySelector('#login');
 
-// login.addEventListener('click', () => {
-//     window.location = './loginn.html'
-// });
 
 
 
